@@ -589,6 +589,7 @@ class TitleState extends MusicBeatState
 					addMoreText('Madinstance');
 					addMoreText('600billionlazer');
 					addMoreText('Navag8r');
+					addMoreText('MtH');
 				// credTextShit.text += '\nNewgrounds';
 				case 6:
 					deleteCoolText();
