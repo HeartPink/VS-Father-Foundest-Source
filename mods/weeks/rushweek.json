@@ -1,0 +1,57 @@
+{
+	"storyName": "FATHER FOUNDEST",
+	"hideFreeplay": false,
+	"weekBackground": "rushweek",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Declaration",
+			"nullasslookinass",
+			[
+				255,
+				208,
+				130
+			]
+		],
+		[
+			"Oil",
+			"nullasslookinass",
+			[
+				255,
+				208,
+				130
+			]
+		],
+		[
+			"Arms",
+			"nullasslookinass",
+			[
+				255,
+				208,
+				130
+			]
+		],
+		[
+			"S.A.M",
+			"nullasslookinass",
+			[
+				17,
+				76,
+				174
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "FATHER FOUNDEST"
+}

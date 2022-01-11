@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gf-heli.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GF Crying at Gunpoint  instance 10000" x="6" y="6" width="1974" height="793" frameX="0" frameY="-2" frameWidth="1974" frameHeight="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10001" x="1992" y="6" width="1974" height="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10002" x="3978" y="6" width="1974" height="793" frameX="0" frameY="-2" frameWidth="1974" frameHeight="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10003" x="5964" y="6" width="1974" height="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10004" x="6" y="813" width="1974" height="793" frameX="0" frameY="-2" frameWidth="1974" frameHeight="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10005" x="1992" y="813" width="1974" height="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10006" x="3978" y="813" width="1974" height="793" frameX="0" frameY="-2" frameWidth="1974" frameHeight="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10007" x="5964" y="813" width="1974" height="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10008" x="6" y="1620" width="1974" height="793" frameX="0" frameY="-2" frameWidth="1974" frameHeight="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10009" x="1992" y="1620" width="1974" height="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10010" x="3978" y="1620" width="1974" height="793" frameX="0" frameY="-2" frameWidth="1974" frameHeight="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10011" x="5964" y="1620" width="1974" height="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10012" x="6" y="813" width="1974" height="793" frameX="0" frameY="-2" frameWidth="1974" frameHeight="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10013" x="1992" y="813" width="1974" height="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10014" x="3978" y="813" width="1974" height="793" frameX="0" frameY="-2" frameWidth="1974" frameHeight="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10015" x="5964" y="813" width="1974" height="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10016" x="6" y="1620" width="1974" height="793" frameX="0" frameY="-2" frameWidth="1974" frameHeight="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10017" x="1992" y="1620" width="1974" height="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10018" x="3978" y="1620" width="1974" height="793" frameX="0" frameY="-2" frameWidth="1974" frameHeight="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10019" x="5964" y="1620" width="1974" height="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10020" x="6" y="813" width="1974" height="793" frameX="0" frameY="-2" frameWidth="1974" frameHeight="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10021" x="1992" y="813" width="1974" height="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10022" x="3978" y="813" width="1974" height="793" frameX="0" frameY="-2" frameWidth="1974" frameHeight="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10023" x="5964" y="813" width="1974" height="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10024" x="6" y="1620" width="1974" height="793" frameX="0" frameY="-2" frameWidth="1974" frameHeight="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10025" x="1992" y="1620" width="1974" height="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10026" x="3978" y="1620" width="1974" height="793" frameX="0" frameY="-2" frameWidth="1974" frameHeight="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10027" x="5964" y="1620" width="1974" height="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10028" x="6" y="813" width="1974" height="793" frameX="0" frameY="-2" frameWidth="1974" frameHeight="795"/>
+	<SubTexture name="GF Crying at Gunpoint  instance 10029" x="1992" y="813" width="1974" height="795"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10000" x="6" y="2427" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10001" x="1991" y="2427" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10002" x="3976" y="2427" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10003" x="5961" y="2427" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10004" x="6" y="3233" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10005" x="1991" y="3233" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10006" x="3976" y="3233" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10007" x="5961" y="3233" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10008" x="6" y="4039" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10009" x="5961" y="3233" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10010" x="1991" y="4039" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10011" x="3976" y="4039" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10012" x="1991" y="4039" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10013" x="5961" y="4039" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10014" x="6" y="4845" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10015" x="1991" y="4845" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10016" x="3976" y="4845" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10017" x="5961" y="4845" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10018" x="6" y="5651" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10019" x="1991" y="5651" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10020" x="3976" y="5651" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10021" x="5961" y="5651" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10022" x="6" y="6457" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10023" x="1991" y="6457" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10024" x="3976" y="6457" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10025" x="5961" y="6457" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10026" x="6" y="7263" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10027" x="1991" y="7263" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10028" x="3976" y="7263" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 10029" x="5961" y="7263" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20000" x="6" y="2427" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20001" x="1991" y="2427" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20002" x="3976" y="2427" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20003" x="5961" y="2427" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20004" x="6" y="3233" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20005" x="1991" y="3233" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20006" x="3976" y="3233" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20007" x="5961" y="3233" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20008" x="6" y="4039" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20009" x="5961" y="3233" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20010" x="1991" y="4039" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20011" x="3976" y="4039" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20012" x="1991" y="4039" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20013" x="5961" y="4039" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20014" x="6" y="4845" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20015" x="1991" y="4845" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20016" x="3976" y="4845" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20017" x="5961" y="4845" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20018" x="6" y="5651" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20019" x="1991" y="5651" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20020" x="3976" y="5651" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20021" x="5961" y="5651" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20022" x="6" y="6457" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20023" x="1991" y="6457" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20024" x="3976" y="6457" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20025" x="5961" y="6457" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20026" x="6" y="7263" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20027" x="1991" y="7263" width="1973" height="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20028" x="3976" y="7263" width="1973" height="792" frameX="0" frameY="-2" frameWidth="1973" frameHeight="794"/>
+	<SubTexture name="GF Dancing at Gunpoint instance 20029" x="5961" y="7263" width="1973" height="794"/>
+</TextureAtlas>

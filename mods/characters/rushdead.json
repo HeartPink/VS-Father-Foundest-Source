@@ -1,0 +1,34 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-5,
+				-25
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "!!idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/rushdead",
+	"position": [
+		-500,
+		-220
+	],
+	"healthicon": "nullasslookinass",
+	"flip_x": false,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		-40,
+		280
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
