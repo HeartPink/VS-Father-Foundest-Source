@@ -3681,7 +3681,7 @@
 				"sectionNotes": [],
 				"altAnim": false,
 				"gfSection": false,
-				"bpm": 153,
+				"bpm": 92,
 				"changeBPM": false,
 				"mustHitSection": true
 			},
@@ -3693,7 +3693,7 @@
 				"altAnim": false,
 				"mustHitSection": true,
 				"changeBPM": false,
-				"bpm": 153
+				"bpm": 92
 			},
 			{
 				"gfSection": false,
@@ -3701,7 +3701,7 @@
 				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
-				"bpm": 153,
+				"bpm": 92,
 				"changeBPM": false,
 				"mustHitSection": true
 			}
@@ -3709,12 +3709,12 @@
 		"gfVersion": "gf-tiny",
 		"player2": "rushmore",
 		"player3": "gf-tiny",
-		"song": "oil",
+		"song": "declaration",
 		"stage": "day",
 		"needsVoices": true,
 		"validScore": true,
-		"speed": 2.3,
-		"bpm": 153,
+		"speed": 1.9,
+		"bpm": 92,
 		"noteStyle": "normal"
 	}
 }
