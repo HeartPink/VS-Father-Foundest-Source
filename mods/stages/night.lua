@@ -1,7 +1,7 @@
 function onCreate()
 	-- background shit
 	makeLuaSprite('sambg', 'sambg', -600, -300);
-	setScrollFactor('sambg', 0.9, 0.9);
+	setScrollFactor('sambg', 0.8, 0.8);
 	
 	makeLuaSprite('eagle', 'eagle', 970, 550);
 	scaleObject('eagle', 0.6, 0.6);
