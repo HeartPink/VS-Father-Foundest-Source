@@ -129,6 +129,24 @@ class PlayState extends MusicBeatState
 
 	private var strumLine:FlxSprite;
 
+
+
+
+
+
+
+
+	var heliTweened:Bool = false;
+	//var eagleTweened:Bool = false;
+	var bfTweened:Bool = false;
+
+
+
+
+
+
+
+
 	//Handles the new epic mega sexy cam code that i've done
 	private var camFollow:FlxPoint;
 	private var camFollowPos:FlxObject;
@@ -817,8 +835,25 @@ class PlayState extends MusicBeatState
 			gf.visible = false;
 		}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 		switch(curStage)
 		{
+			case 'night':
+				heliFloat();
+				//eagleFloat();
+				bfFloat();
 			case 'limo':
 				resetFastCar();
 				insert(members.indexOf(gfGroup) - 1, fastCar);
@@ -827,6 +862,30 @@ class PlayState extends MusicBeatState
 				var evilTrail = new FlxTrail(dad, null, 4, 24, 0.3, 0.069); //nice
 				insert(members.indexOf(dadGroup) - 1, evilTrail);
 		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 		var file:String = Paths.json(songName + '/dialogue'); //Checks for json/Psych Engine dialogue
 		if (OpenFlAssets.exists(file)) {
@@ -4346,6 +4405,63 @@ class PlayState extends MusicBeatState
 		setOnLuas('ratingName', ratingName);
 		setOnLuas('ratingFC', ratingFC);
 	}
+
+
+
+
+
+
+
+	function heliFloat()
+		{
+			heliTweened = !heliTweened;
+			if (heliTweened) {
+			FlxTween.tween(gf, {y: gf.y - 100}, 2, {
+				ease: FlxEase.quadInOut,
+				onComplete: function(tween:FlxTween)
+					{
+						heliFloat();
+					},
+			});
+			} else {
+				FlxTween.tween(gf, {y: gf.y +100}, 2, {
+					ease: FlxEase.quadInOut,
+					onComplete: function(tween:FlxTween)
+						{
+							heliFloat();
+						}
+				});
+			}
+		}
+
+
+		function bfFloat()
+			{
+				bfTweened = !bfTweened;
+				if (bfTweened) {
+					FlxTween.tween(boyfriend, {y: boyfriend.y - 40}, 0.8, {
+						ease: FlxEase.quadInOut,
+						onComplete: function(tween:FlxTween)
+							{
+								bfFloat();
+							}
+					});
+					} else {
+						FlxTween.tween(boyfriend, {y: boyfriend.y + 40}, 0.8, {
+							ease: FlxEase.quadInOut,
+							onComplete: function(tween:FlxTween)
+								{
+									bfFloat();
+								}
+						});
+					}
+		}
+
+
+
+
+
+
 
 	#if ACHIEVEMENTS_ALLOWED
 	private function checkForAchievement(achievesToCheck:Array<String>):String {
