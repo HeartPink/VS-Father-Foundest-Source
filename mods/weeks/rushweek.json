@@ -2,13 +2,14 @@
 	"storyName": "FATHER FOUNDEST",
 	"hideFreeplay": false,
 	"weekBackground": "rushweek",
-	"weekBefore": "tutorial",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "tutorial",
 	"startUnlocked": true,
+	"hideStoryMode": false,
 	"weekCharacters": [
 		"",
 		"",
@@ -46,12 +47,11 @@
 			"S.A.M",
 			"nullasslookinass",
 			[
-				17,
-				76,
-				174
+				255,
+				208,
+				130
 			]
 		]
 	],
-	"hideStoryMode": false,
 	"weekName": "FATHER FOUNDEST"
 }
