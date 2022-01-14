@@ -1,33 +1,48 @@
 function onCreate()
 	-- background shit
-	makeLuaSprite('sambg', 'sambg', -600, -300);
-	setScrollFactor('sambg', 0.8, 0.8);
-	
-	makeLuaSprite('eagle', 'eagle', 970, 550);
-	scaleObject('eagle', 0.6, 0.6);
-	setScrollFactor('eagle', 0.9, 0.9);
+	makeLuaSprite('sambg', 'nightstage/sambg', -600, -300);
+	setScrollFactor('sambg', 0.3, 0.3);
 
 	-- sprites that only load if Low Quality is turned off
-	--if not lowQuality then
-	--	makeLuaSprite('stagelight_left', 'stage_light', -125, -100);
-	--	setScrollFactor('stagelight_left', 0.9, 0.9);
-	--	scaleObject('stagelight_left', 1.1, 1.1);
-	--	
-	--	makeLuaSprite('stagelight_right', 'stage_light', 1225, -100);
-	--	setScrollFactor('stagelight_right', 0.9, 0.9);
-	--	scaleObject('stagelight_right', 1.1, 1.1);
-	--	setProperty('stagelight_right.flipX', true); --mirror sprite horizontally
---
---		makeLuaSprite('stagecurtains', 'stagecurtains', -500, -300);
---		setScrollFactor('stagecurtains', 1.3, 1.3);
---		scaleObject('stagecurtains', 0.9, 0.9);
---	end
+	if not lowQuality then
+		makeLuaSprite('cloudBACK', 'nightstage/BACKCLOUD', 0, 300);
+		setScrollFactor('cloudBACK', 0.5, 0.5);
+
+		makeLuaSprite('cloudBACK2', 'nightstage/BACKCLOUD', -500, 300);
+		setScrollFactor('cloudBACK2', 0.5, 0.5);
+
+		makeLuaSprite('cloudBACK3', 'nightstage/BACKCLOUD', 500, 300);
+		setScrollFactor('cloudBACK3', 0.5, 0.5);
+
+		--scaleObject('cloudBACK', 1.1, 1.1);
+
+		makeLuaSprite('cloudFRONT', 'nightstage/FRONTCLOUD', 0, 500);
+		setScrollFactor('cloudFROTN', 0.8, 0.8);
+	end
+	
+	makeLuaSprite('eagle', 'nightstage/EAGLE', 970, 550);
+	--scaleObject('eagle', 0.6, 0.6);
+	setScrollFactor('eagle', 0.9, 0.9);
+
+	
 
 	addLuaSprite('sambg', false);
+	addLuaSprite('cloudBACK3', false);
+	addLuaSprite('cloudBACK2', false);
+	addLuaSprite('cloudBACK', false);
+	
 	addLuaSprite('eagle', false);
-	addLuaSprite('stagelight_left', false);
-	addLuaSprite('stagelight_right', false);
-	addLuaSprite('stagecurtains', false);
+	addLuaSprite('cloudFRONT', true);
+
 	
 	close(true); --For performance reasons, close this script once the stage is fully loaded, as this script won't be used anymore after loading the stage
 end
+
+--function onBeatHit()
+--	objectPlayAnimation('cloudFRONT', 'frontscroll', true)
+--		setProperty('cloudFRONT.x', 10)
+--
+--	if curBeat % 8 == 4 then
+--		objectPlayAnimation('cloudFRONT','frontscroll', true)
+--	end
+--end
