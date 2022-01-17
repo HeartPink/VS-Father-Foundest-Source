@@ -1,0 +1,29 @@
+{
+	"song": {
+		"speed": 2.3,
+		"stage": "day",
+		"player1": "bf-tiny",
+		"player2": "rushmore",
+		"player3": null,
+		"events": [
+			[
+				87843.1372549019,
+				[
+					[
+						"Play Animation",
+						"OilCool",
+						"Dad"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf-tiny",
+		"bpm": 153,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "oil"
+	}
+}
