@@ -79,19 +79,6 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
-			['Father Foundest Team'],
-			['RedHeartPink',		'heartpink',		'All Art as well as Mod Implementation',										'https://heartpink.newgrounds.com',							'EC1A65'],
-			['Madinstance',			'madinstance',		'Main Composer and Charting.\nComposed: FunkShot, S.A.M.',						'https://twitter.com/madinstance',							'30784D'],
-			['600billionlazer',		'600billionlazer',	'Composer, Art Design Assistance, Voice of Father Foundest\nComposed: Oil',		'https://twitter.com/600billionlazer',						'8A6493'],
-			['Navag8r',				'navag8r',			'Composer\nComposed: The Second',												'https://twitter.com/Navask8r',								'EDDD90'],
-			['MtH',					'mth',				'Made declaration good',														'https://mth.moe/',											'F66889'],
-			[''],
-			['Mod... Assistance?'],
-			['Gonovo',				'gonovo',			'Asked very nicely if he could be in the credits\n(we said no)',				'https://en.wikipedia.org/wiki/L',							'00BB88'],
-			['Magicnai',			'nai',				'in the gc, thats it',															'nerf_THIS',												'7FD4FF'],
-			['SnakeManvsArbok',		'snakeman',			'we were fucking with \'em\nwhen we thought this mod would be funny',			'brrnnnaaaaaap!!',											'B25D58'],
-			[''],
-			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',												'https://twitter.com/Shadow_Mario_',						'444444'],
 			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',											'https://twitter.com/river_oaken',							'C30085'],
