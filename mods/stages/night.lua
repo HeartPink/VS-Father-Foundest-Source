@@ -1,3 +1,8 @@
+local lastBpmChangeTime = 0;
+local lastBpmChangeBeat = 0;
+local prevBpm = 0;
+local prevCrochet = 0;
+
 function onCreate()
 	-- background shit
 	makeLuaSprite('sambg', 'nightstage/sambg', -600, -300);
@@ -24,8 +29,6 @@ function onCreate()
 	--scaleObject('eagle', 0.6, 0.6);
 	setScrollFactor('eagle', 0.9, 0.9);
 
-	
-
 	addLuaSprite('sambg', false);
 	addLuaSprite('cloudBACK3', false);
 	addLuaSprite('cloudBACK2', false);
@@ -33,16 +36,29 @@ function onCreate()
 	
 	addLuaSprite('eagle', false);
 	addLuaSprite('cloudFRONT', true);
-
-	
-	close(true); --For performance reasons, close this script once the stage is fully loaded, as this script won't be used anymore after loading the stage
 end
 
---function onBeatHit()
---	objectPlayAnimation('cloudFRONT', 'frontscroll', true)
---		setProperty('cloudFRONT.x', 10)
---
---	if curBeat % 8 == 4 then
---		objectPlayAnimation('cloudFRONT','frontscroll', true)
---	end
---end
+function onUpdatePost(elapsed)
+	local wave = math.sin((getSongPosition() - lastBpmChangeTime) / crochet * math.pi / 4);
+	setProperty('boyfriend.y', 20 * wave + 350);	--bf-car y, idk why defaultBoyfriendY not work tbh
+	setProperty('eagle.y', 20 * wave + 550);
+	setProperty('gf.y', -50 * wave - 250);			--lol??
+end
+
+function onSongStart()
+	lastBpmChangeTime = 0;
+	lastBpmChangeBeat = 0;
+	prevBpm = curBpm;
+	prevCrochet = crochet;
+end
+
+function onBeatHit()	--changebpm stuff all called before this so should be good!
+	if curBpm ~= prevBpm then
+		lastBpmChangeTime = lastBpmChangeTime + (curBeat - lastBpmChangeBeat) * prevCrochet;
+		lastBpmChangeBeat = curBeat;
+		prevBpm = curBpm;
+		prevCrochet = crochet;
+	end
+end
+-- someone rly gotta add hooks for this shit on psych fr fr !!!!!
+-- very easy just make lastChange from MusicBeatState.updateCurStep() a public variable outside the function scope so we can getPropertyFromClass shit
