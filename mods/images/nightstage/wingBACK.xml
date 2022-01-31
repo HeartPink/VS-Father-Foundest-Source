@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="wingBACK.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="WingBACK instance 10000" x="6" y="6" width="423" height="159" frameX="-1" frameY="-267" frameWidth="430" frameHeight="426"/>
+	<SubTexture name="WingBACK instance 10001" x="6" y="6" width="423" height="159" frameX="-1" frameY="-267" frameWidth="430" frameHeight="426"/>
+	<SubTexture name="WingBACK instance 10002" x="441" y="6" width="429" height="146" frameX="-1" frameY="-260" frameWidth="430" frameHeight="426"/>
+	<SubTexture name="WingBACK instance 10003" x="441" y="6" width="429" height="146" frameX="-1" frameY="-260" frameWidth="430" frameHeight="426"/>
+	<SubTexture name="WingBACK instance 10004" x="6" y="177" width="430" height="311" frameX="0" frameY="0" frameWidth="430" frameHeight="426"/>
+	<SubTexture name="WingBACK instance 10005" x="6" y="177" width="430" height="311" frameX="0" frameY="0" frameWidth="430" frameHeight="426"/>
+	<SubTexture name="WingBACK instance 10006" x="6" y="177" width="430" height="311" frameX="0" frameY="0" frameWidth="430" frameHeight="426"/>
+	<SubTexture name="WingBACK instance 10007" x="6" y="177" width="430" height="311" frameX="0" frameY="0" frameWidth="430" frameHeight="426"/>
+	<SubTexture name="WingBACK instance 10008" x="6" y="177" width="430" height="311" frameX="0" frameY="0" frameWidth="430" frameHeight="426"/>
+	<SubTexture name="WingBACK instance 10009" x="6" y="177" width="430" height="311" frameX="0" frameY="0" frameWidth="430" frameHeight="426"/>
+	<SubTexture name="WingBACK instance 10010" x="6" y="177" width="430" height="311" frameX="0" frameY="0" frameWidth="430" frameHeight="426"/>
+	<SubTexture name="WingBACK instance 10011" x="6" y="177" width="430" height="311" frameX="0" frameY="0" frameWidth="430" frameHeight="426"/>
+	<SubTexture name="WingBACK instance 10012" x="6" y="177" width="430" height="311" frameX="0" frameY="0" frameWidth="430" frameHeight="426"/>
+	<SubTexture name="WingBACK instance 10013" x="6" y="177" width="430" height="311" frameX="0" frameY="0" frameWidth="430" frameHeight="426"/>
+</TextureAtlas>

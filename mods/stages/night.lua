@@ -8,40 +8,34 @@ function onCreate()
 	makeLuaSprite('sambg', 'nightstage/sambg', -600, -300);
 	setScrollFactor('sambg', 0.3, 0.3);
 
-	-- sprites that only load if Low Quality is turned off
+	makeLuaSprite('eagle', 'nightstage/EAGLE', 970, 550);
+	makeLuaSprite('wingFRONT', 'nightstage/wingFRONT', 1000, 650);
+	makeLuaSprite('wingBACK', 'nightstage/wingBACK', 970, 550);
+
+
+-- sprites that only load if Low Quality is turned off
 	if not lowQuality then
 		makeLuaSprite('cloudBACK', 'nightstage/BACKCLOUD', 0, 300);
 		setScrollFactor('cloudBACK', 0.5, 0.5);
 
-		makeLuaSprite('cloudBACK2', 'nightstage/BACKCLOUD', -500, 300);
-		setScrollFactor('cloudBACK2', 0.5, 0.5);
-
-		makeLuaSprite('cloudBACK3', 'nightstage/BACKCLOUD', 500, 300);
-		setScrollFactor('cloudBACK3', 0.5, 0.5);
-
-		--scaleObject('cloudBACK', 1.1, 1.1);
-
 		makeLuaSprite('cloudFRONT', 'nightstage/FRONTCLOUD', 0, 500);
 		setScrollFactor('cloudFROTN', 0.8, 0.8);
 	end
-	
-	makeLuaSprite('eagle', 'nightstage/EAGLE', 970, 550);
-	--scaleObject('eagle', 0.6, 0.6);
-	setScrollFactor('eagle', 0.9, 0.9);
 
 	addLuaSprite('sambg', false);
-	addLuaSprite('cloudBACK3', false);
-	addLuaSprite('cloudBACK2', false);
 	addLuaSprite('cloudBACK', false);
-	
+	addLuaSprite('wingBACK', false);
 	addLuaSprite('eagle', false);
+	addLuaSprite('wingFRONT', true);
 	addLuaSprite('cloudFRONT', true);
 end
+
+
 
 function onUpdatePost(elapsed)
 	local wave = math.sin((getSongPosition() - lastBpmChangeTime) / crochet * math.pi / 4);
 	setProperty('boyfriend.y', 20 * wave + 350);	--bf-car y, idk why defaultBoyfriendY not work tbh
-	setProperty('eagle.y', 20 * wave + 550);
+	setProperty('eagle.y', 20 * wave + 350);
 	setProperty('gf.y', -50 * wave - 250);			--lol??
 end
 
