@@ -9,8 +9,10 @@ function onCreate()
 	setScrollFactor('sambg', 0.3, 0.3);
 
 	makeLuaSprite('eagle', 'nightstage/EAGLE', 970, 550);
-	makeLuaSprite('wingFRONT', 'nightstage/wingFRONT', 1000, 650);
-	makeLuaSprite('wingBACK', 'nightstage/wingBACK', 970, 550);
+	makeAnimatedLuaSprite('wingFRONT', 'nightstage/wingFRONT', 1000, 250);
+	addAnimationByPrefix('wingFRONT', 'flap', 'WingFORE', 24, true)
+	makeAnimatedLuaSprite('wingBACK', 'nightstage/wingBACK', 970, 350);
+	addAnimationByPrefix('wingBACK', 'flapB', 'WingBACK', 24, true)
 
 
 -- sprites that only load if Low Quality is turned off
@@ -24,7 +26,7 @@ function onCreate()
 
 	addLuaSprite('sambg', false);
 	addLuaSprite('cloudBACK', false);
-	addLuaSprite('wingBACK', false);
+	addLuaSprite('wingBACK', true);
 	addLuaSprite('eagle', false);
 	addLuaSprite('wingFRONT', true);
 	addLuaSprite('cloudFRONT', true);
