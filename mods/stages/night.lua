@@ -26,17 +26,14 @@ function onCreate()
 
 
 	addLuaSprite('sambg', false);
-	if not lowQuality then
 	addLuaSprite('cloudBACK2', false);
 	addLuaSprite('cloudBACK', false);
 	addLuaSprite('wingBACK', false);
-	end
 	addLuaSprite('eagle', false);
-	if not lowQuality then
 	addLuaSprite('wingFRONT', true);
 	addLuaSprite('cloudFRONT', true);
 	addLuaSprite('cloudFRONT2', true);
-	end
+	
 end
 
 
