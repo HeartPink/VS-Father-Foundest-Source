@@ -1,0 +1,139 @@
+{
+	"song": {
+		"speed": 2.7,
+		"stage": "night",
+		"player1": "bf-car",
+		"player2": "sam",
+		"player3": null,
+		"events": [
+			[
+				153634.629927431,
+				[
+					[
+						"Change Character",
+						"dad",
+						"scam-angry"
+					]
+				]
+			],
+			[
+				158033.916021253,
+				[
+					[
+						"Change Character",
+						"dad",
+						"sam-angry"
+					]
+				]
+			],
+			[
+				207628.510615848,
+				[
+					[
+						"Change Character",
+						"dad",
+						"sam"
+					]
+				]
+			],
+			[
+				255664.216459922,
+				[
+					[
+						"Change Character",
+						"dad",
+						"scam-angry"
+					]
+				]
+			],
+			[
+				260536.731477264,
+				[
+					[
+						"Change Character",
+						"dad",
+						"sam-angry"
+					]
+				]
+			],
+			[
+				305132.093923497,
+				[
+					[
+						"Change Character",
+						"dad",
+						"sam"
+					]
+				]
+			],
+			[
+				328749.661491064,
+				[
+					[
+						"Change Character",
+						"dad",
+						"scam-angry"
+					]
+				]
+			],
+			[
+				330099.661491064,
+				[
+					[
+						"Change Character",
+						"dad",
+						"sam-angry"
+					]
+				]
+			],
+			[
+				368480.087473813,
+				[
+					[
+						"Change Character",
+						"dad",
+						"scam-angry"
+					]
+				]
+			],
+			[
+				373277.640721657,
+				[
+					[
+						"Change Character",
+						"dad",
+						"sam-angry"
+					]
+				]
+			],
+			[
+				404461.736832641,
+				[
+					[
+						"Change Character",
+						"dad",
+						"scam-angry"
+					]
+				]
+			],
+			[
+				405586.163375104,
+				[
+					[
+						"Change Character",
+						"dad",
+						"sam-angry"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf-heli",
+		"bpm": 200.102,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "s.a.m"
+	}
+}
