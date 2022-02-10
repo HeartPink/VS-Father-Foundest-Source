@@ -1,0 +1,59 @@
+{
+	"song": {
+		"speed": 2.9,
+		"stage": "noon",
+		"player1": "bf-tiny",
+		"player2": "rushmore",
+		"player3": null,
+		"events": [
+			[
+				20571.4285714286,
+				[
+					[
+						"Screen Shake",
+						"0.3, 0.005",
+						""
+					]
+				]
+			],
+			[
+				61714.2857142858,
+				[
+					[
+						"Screen Shake",
+						"0.3, 0.005",
+						""
+					]
+				]
+			],
+			[
+				102857.142857143,
+				[
+					[
+						"Screen Shake",
+						"0.3, 0.005",
+						""
+					]
+				]
+			],
+			[
+				116571.428571429,
+				[
+					[
+						"Screen Shake",
+						"0.3, 0.005",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf-tiny",
+		"bpm": 140,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "arms"
+	}
+}
