@@ -1,0 +1,49 @@
+{
+	"song": {
+		"speed": 2.4,
+		"stage": "day",
+		"player1": "bf-tiny",
+		"player2": "rushdead",
+		"player3": null,
+		"events": [
+			[
+				33260.8695652174,
+				[
+					[
+						"Add Camera Zoom",
+						"0.023",
+						"0.02"
+					]
+				]
+			],
+			[
+				33586.9565217391,
+				[
+					[
+						"Add Camera Zoom",
+						"0.025",
+						"0.01"
+					]
+				]
+			],
+			[
+				33913.0434782609,
+				[
+					[
+						"Add Camera Zoom",
+						"0.027",
+						"0"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf-tiny",
+		"bpm": 92,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Declaration"
+	}
+}
