@@ -1,0 +1,172 @@
+{
+ "version": "2.2.4",
+ "songName": "S.A.M.",
+ "artist": "Madinstance",
+ "charter": "Madinstance",
+ "divisions": 96,
+ "looped": false,
+ "offsets": {
+  "instrumental": 0,
+  "altInstrumentals": {  },
+  "vocals": {  },
+  "altVocals": {  }
+ },
+ "playData": {
+  "songVariations": [],
+  "difficulties": [
+   "normal"
+  ],
+  "characters": {
+   "player": "bf-car",
+   "girlfriend": "gf-heli",
+   "opponent": "sam",
+   "instrumental": "",
+   "altInstrumentals": [],
+   "opponentVocals": [
+    "sam"
+   ],
+   "playerVocals": [
+    "bf-car"
+   ]
+  },
+  "stage": "foundestnight",
+  "noteStyle": "funkin",
+  "ratings": {
+   "normal": 0
+  },
+  "previewStart": 0,
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.1",
+ "timeFormat": "ms",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 200.102,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 27585.9316,
+   "b": 92,
+   "bpm": 191.102,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 36377.0469,
+   "b": 120,
+   "bpm": 200.102,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 92748.3,
+   "b": 308,
+   "bpm": 100,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 140748.3,
+   "b": 388,
+   "bpm": 120,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 144748.3,
+   "b": 396,
+   "bpm": 140,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 148176.875,
+   "b": 404,
+   "bpm": 160,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 151176.875,
+   "b": 412,
+   "bpm": 180,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 152510.2,
+   "b": 416,
+   "bpm": 200.102,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 153709.6,
+   "b": 420,
+   "bpm": 222,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 205601.484,
+   "b": 612,
+   "bpm": 111,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 207763.641,
+   "b": 616,
+   "bpm": 200.102,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 274929.375,
+   "b": 840,
+   "bpm": 222,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 305199.656,
+   "b": 952,
+   "bpm": 160,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 327699.656,
+   "b": 1012,
+   "bpm": 100,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 330099.656,
+   "b": 1016,
+   "bpm": 200.102,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

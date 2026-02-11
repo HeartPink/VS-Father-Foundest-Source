@@ -1,0 +1,34 @@
+import funkin.play.stage.Stage;
+import funkin.play.PlayState;
+import funkin.Conductor;
+import funkin.modding.events.UpdateScriptEvent;
+
+class FoundestnightStage extends Stage
+{
+  var amp:Float = 50;        // matches your Lua magnitude (-50)
+  var speedDiv:Float = 4;    // matches Lua: * Math.PI / 4
+
+  var gfBaseY:Float = Math.NaN;
+
+  function new()
+  {
+    super('foundestnight'); // must match your stage id / json filename
+  }
+
+  // Use POST so nothing overrides your Y after you set it
+  override function onUpdatePost(event:UpdateScriptEvent):Void
+  {
+    super.onUpdatePost(event);
+
+    var ps = PlayState.instance;
+    if (ps == null || ps.gf == null) return;
+
+    if (Math.isNaN(gfBaseY)) gfBaseY = ps.gf.y;
+
+    // Lua equivalent (without lastBpmChangeTime for now)
+    var beatTime:Float = Conductor.songPosition / Conductor.crochet;
+    var wave:Float = Math.sin(beatTime * Math.PI / speedDiv);
+
+    ps.gf.y = gfBaseY + (-amp * wave);
+  }
+}

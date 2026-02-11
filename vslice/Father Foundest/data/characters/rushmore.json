@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "name": "Father Foundest",
+  "assetPath": "characters/rushmore",
+  "flipX": false,
+  "sing_duration": 6.1,
+  "offsets": [0, 0],
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "idle",
+      "offsets": [-2, -25]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "left",
+      "offsets": [19, -12]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "down",
+      "offsets": [0, -21]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "right",
+      "offsets": [-1, -23]
+    },
+    {
+      "name": "singUP",
+      "prefix": "up",
+      "offsets": [-3, -22]
+    },
+    {
+      "name": "OilCool",
+      "prefix": "OilCool",
+      "offsets": [31, -25]
+    }
+  ]
+}

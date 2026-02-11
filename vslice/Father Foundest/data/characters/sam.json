@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "name": "S.A.M.",
+  "assetPath": "characters/SAM",
+  "flipX": false,
+  "sing_duration": 6.1,
+  "offsets": [0, 0],
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "!IDLE",
+      "offsets": [4, -58]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "!LEFT",
+      "offsets": [4, -58]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "!DOWN",
+      "offsets": [4, -51]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "!RIGHT",
+      "offsets": [4, -46]
+    },
+    {
+      "name": "singUP",
+      "prefix": "!UP",
+      "offsets": [4, -23]
+    }
+  ]
+}
